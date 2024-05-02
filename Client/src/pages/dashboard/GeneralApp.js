@@ -4,7 +4,7 @@ const GeneralApp = () => {
 
   return (
     <>
-       Pham minh khoa
+      Pham minh khoa
     </>
   );
 };
