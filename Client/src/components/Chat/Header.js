@@ -62,7 +62,7 @@ const Conversation_Menu = [
   },
 ];
 
-const ChatHeader = () => {
+const Header = () => {
   const isMobile = useResponsive("between", "md", "xs", "sm");
   const [searchParams, setSearchParams] = useSearchParams();
   const theme = useTheme();
@@ -185,4 +185,4 @@ const ChatHeader = () => {
   );
 };
 
-export default ChatHeader;
+export default Header;

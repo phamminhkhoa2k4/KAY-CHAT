@@ -18,7 +18,7 @@ import {
   User,
 } from "phosphor-react";
 import { useTheme, styled } from "@mui/material/styles";
-import React from "react";
+import React, { useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import useResponsive from "../../hooks/useResponsive";
 
@@ -66,7 +66,7 @@ const Actions = [
 ];
 
 const ChatInput = ({ openPicker, setOpenPicker }) => {
-  const [openActions, setOpenActions] = React.useState(false);
+  const [openActions, setOpenActions] = useState(false);
 
   return (
     <StyledInput
